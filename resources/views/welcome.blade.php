@@ -27,11 +27,11 @@
     />
 
     <!-- github acitivity css -->
-    <link rel="stylesheet" href="{{ asset('css/github-activity.css') }}">
+    <link rel="stylesheet" href="{{secure_asset('css/github-activity.css') }}">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
 
     <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="{{ asset('css/styles.css') }}">
+    <link id="theme-style" rel="stylesheet" href="{{secure_asset('css/styles.css') }}">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -49,7 +49,7 @@
                 {{@session("message_sent")}}
                 </div>
             @endif
-            <img class="profile-image img-responsive pull-left" src="{{ asset('img/profile.jpg') }}" alt="Yusuf Muhammad Toyib" />
+            <img class="profile-image img-responsive pull-left" src="{{secure_asset('img/profile.jpg') }}" alt="Yusuf Muhammad Toyib" />
 
             <div class="profile-content pull-left">
                 <h1 class="name">Yusuf Muhammad Toyib</h1>
@@ -59,7 +59,7 @@
                     <li><a href="https://github.com/Phoxtrot"><i class="fab fa-github" style="size:7x"></i></a></li>
 
                 </ul>
-                <img class="img-responsive pull-left" src="{{ asset('img/hng.png') }}" alt="HNG" />
+                <img class="img-responsive pull-left" src="{{secure_asset('img/hng.png') }}" alt="HNG" />
             </div><!--//profile-->
             <a class="btn btn-cta-primary pull-right" href="#" ><i class="fa fa-paper-plane"></i> Contact Me</a>
         </div><!--//container-->
@@ -90,7 +90,7 @@
                                 <p class="summary">An app for tracking financial expenses and incomes and creating budgets </p>
                                 <div class="featured-image">
                                     <a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/" target="_blank">
-                                    <img class="img-responsive project-image" src="{{ asset('img/trackfundz.jpg') }}" alt="trackfundz" />
+                                    <img class="img-responsive project-image" src="{{secure_asset('img/trackfundz.jpg') }}" alt="trackfundz" />
                                     </a>
                                     <div class="ribbon">
                                         <div class="text">New</div>
@@ -107,7 +107,7 @@
                             <hr class="divider" />
                             <div class="item row">
                                 <a class="col-md-4 col-sm-4 col-xs-12" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-mobile-apps-atom/" target="_blank">
-                                <img class="img-responsive project-image" src="{{ asset('img/hackcode.png') }}" alt="project name" />
+                                <img class="img-responsive project-image" src="{{secure_asset('img/hackcode.png') }}" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
                                     <h3 class="title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-mobile-apps-atom/" target="_blank">Hackcode Bootcamp</a></h3>
@@ -118,7 +118,7 @@
                             <hr class="divider" />
                             <div class="item row">
                                 <a class="col-md-4 col-sm-4 col-xs-12" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-web-development-agencies-devstudio/" target="_blank">
-                                <img class="img-responsive project-image" src="{{ asset('img/iec.png') }}" alt="project name" />
+                                <img class="img-responsive project-image" src="{{secure_asset('img/iec.png') }}" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
                                     <h3 class="title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-web-development-agencies-devstudio/" target="_blank">IEC- Website for an engineering consulting firm in Ilorin </a></h3>
@@ -369,9 +369,9 @@
     </footer><!--//footer-->
 
     <!-- Javascript -->
-    <script type="text/javascript" src="{{ asset('js/jquery-1.11.3.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/jquery.rss.min.js') }}"></script>
+    <script type="text/javascript" src="{{secure_asset('js/jquery-1.11.3.min.js') }}"></script>
+    <script type="text/javascript" src="{{secure_asset('js/bootstrap.min.js') }}"></script>
+    <script type="text/javascript" src="{{secure_asset('js/jquery.rss.min.js') }}"></script>
 
     <!-- Loading stuff -->
     <script>
@@ -398,7 +398,7 @@
         src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
     </script>
     <!-- custom js -->
-    <script type="text/javascript" src="{{ asset('js/main.js') }}"></script>
+    <script type="text/javascript" src="{{secure_asset('js/main.js') }}"></script>
 </body>
 </html>
 
