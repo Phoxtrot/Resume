@@ -49,7 +49,7 @@
                 {{@session("message_sent")}}
                 </div>
             @endif
-            <img class="profile-image img-responsive pull-left" src="{{secure_asset('img/profile.jpg') }}" alt="Yusuf Muhammad Toyib" />
+            <img class="profile-image img-responsive pull-left" src="{{secure_asset('img/profile.JPG') }}" alt="Yusuf Muhammad Toyib" />
 
             <div class="profile-content pull-left">
                 <h1 class="name">Yusuf Muhammad Toyib</h1>
