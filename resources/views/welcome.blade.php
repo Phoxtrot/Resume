@@ -59,16 +59,15 @@
                     <li><a href="https://github.com/Phoxtrot"><i class="fab fa-github" style="size:7x"></i></a></li>
 
                 </ul>
-                            <a target="_blank" href="https://ingressive.org/" class="mb-2">
+            <a target="_blank" href="https://ingressive.org/" class="mb-2">
                 <img width="120" src="https://mesole-emmanuel-portfolio.herokuapp.com/assets/img/i4g2.png" />
-            </a>
+            </a><br>
             <a target="_blank" href="https://hng.tech/" class="mb-2">
                 <img width="120" src="https://mesole-emmanuel-portfolio.herokuapp.com/assets/img/hng2.png" />
-            </a>
+            </a><br>
             <a target="_blank" href="https://internship.zuri.team/" class="mb-2">
                 <img width="120" src="https://mesole-emmanuel-portfolio.herokuapp.com/assets/img/zuri.png" />
-            </a>
-                <img class="img-responsive pull-left" src="{{secure_asset('img/hng.png') }}" alt="HNG" />
+            </a><br>
             </div><!--//profile-->
             <a class="btn btn-cta-primary pull-right" href="#" ><i class="fa fa-paper-plane"></i> Contact Me</a>
         </div><!--//container-->
